@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route} from 'react-router'
+import Home from './pages/Home'
 
 
 function App() {
@@ -5,7 +7,13 @@ function App() {
 
   return (
     <>
-      <h1>Hello Jio-Cinema</h1>
+      <BrowserRouter>
+        <Routes>
+
+          <Route path='/home' element={<Home/>}></Route>
+
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
