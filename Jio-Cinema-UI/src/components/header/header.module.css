@@ -12,30 +12,70 @@
 }
 
 .navigation{
-    width: 40%;
+    width: 90%;
     height: 70px;
-    background-color: red;
+    /* background-color: red; */
+    display: flex;
+    column-gap: 30px;
+    color: white;
 }
 
 .logo{
-    background-color: grey;
-    width: fit-content;
+    /* background-color: grey; */
+    width: 350px;
     display: flex;
     column-gap: 10px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
 
 }
+
 .premium{
-    width: fit-content;
+    width: 250px;
     height: 30px;
     border: 2px solid gold;
     padding: 4px 10px;
     border-radius: 100px;
     color: gold;
-    margin: 3px 5px;
+    margin: 10px 5px;
+    display: flex;
+    column-gap: 8px;
 }
 
+.navLinks{
+    width: fit-content;
+    display: flex;
+    list-style-type: none;
+    column-gap: 15px;
+    align-items: center;
+    margin-left: 20px;
+    font-size: large;
+}
+
+.navLink{
+    padding: 21px 0px;
+}
+.navLink:first-child{
+    
+    border-bottom: 4px solid #d9008d;
+    margin-top: 5px;
+}
+
+
 .search{
-    width: 40%;
+    width: 50%;
     height: 70px;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.searchBox{
+    width: 300px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 18px;
 }
