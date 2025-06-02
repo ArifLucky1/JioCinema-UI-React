@@ -17,10 +17,21 @@
     background-color: red;
 }
 
+.logo{
+    background-color: grey;
+    width: fit-content;
+    display: flex;
+    column-gap: 10px;
+
+}
 .premium{
     width: fit-content;
     height: 30px;
     border: 2px solid gold;
+    padding: 4px 10px;
+    border-radius: 100px;
+    color: gold;
+    margin: 3px 5px;
 }
 
 .search{
