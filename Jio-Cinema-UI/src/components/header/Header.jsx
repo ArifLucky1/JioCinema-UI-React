@@ -1,6 +1,9 @@
 import styles from "./header.module.css";
 import JCLogo from '../../assets/jc_logo.svg';
 import crown from '../../assets/crown.svg'
+import searchIcon from '../../assets/ic_search.svg'
+import voiceSearch from '../../assets/voice-search.svg'
+import jioIcon from '../../assets/jio-logo.png'
 
 
 export default function Header() {
@@ -32,7 +35,20 @@ export default function Header() {
 
             <div className={styles.searchBox}>
 
+                <div className={styles.headerIcon}>
+                    <img src={searchIcon} alt="search" />
+                </div>
+
+                <input type="text" className={styles.searchInput} placeholder="Movies, Shows and More" />
+
+                <div className={styles.headerIcon}>
+                    <img src={voiceSearch} alt="voice" />
+                </div>
+
             </div>
+
+            <img className={styles.usericon} src={jioIcon} alt="jio" />
+
         </div>
       </header>
     </>
