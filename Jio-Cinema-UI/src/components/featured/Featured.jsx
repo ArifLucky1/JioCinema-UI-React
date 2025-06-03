@@ -1,5 +1,6 @@
 import styles from './featured.module.css'
-import avg from '../../assets/avenger1.jpg'
+
+import FeaturedShow from '../featured-show/FeaturedShow'
 
 const Featured = () => {
   return (
@@ -10,9 +11,10 @@ const Featured = () => {
             <h1 className={styles.sectionTitle}>Hot Right Now 🔥</h1>
 
             <div className={styles.shows}>
-                <div className={styles.featuredShow}>
-                    <img src={avg} alt="Avenger" />
-                </div>
+                <FeaturedShow/>
+                <FeaturedShow/>
+                <FeaturedShow/>
+                <FeaturedShow/>
             </div>
 
         </section>

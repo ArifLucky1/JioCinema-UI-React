@@ -1,0 +1,15 @@
+
+.featuredShow{
+    width: 24%;
+    height: 500px;
+    display: flex;
+    /* background-color: green; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.featuredShow > img {
+    width: 100%;
+    /* margin: 0px 15px; */
+}
