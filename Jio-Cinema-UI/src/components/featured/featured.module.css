@@ -8,7 +8,7 @@
 .shows{
     width: 100%;
     /* background-color: red; */
-    padding: 20px 0px;
+    padding: 10px 0px;
     display: flex;
     column-gap: 10px;
 }
