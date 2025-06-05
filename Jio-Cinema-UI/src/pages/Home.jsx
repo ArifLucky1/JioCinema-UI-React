@@ -20,6 +20,7 @@ export default function Home() {
       <Shows title="Action Movies"/>
       <Shows title="Hindi Languauge Movies"/>
       <Shows title="English Languauge Movies"/>
+      <Shows title="South Movies"/>
     </>
   )
 }
