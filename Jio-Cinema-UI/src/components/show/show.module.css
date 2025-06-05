@@ -1,0 +1,11 @@
+.show{
+    width: 17%;
+    height: 363px;
+    /* background-color: yellowgreen; */
+    overflow: hidden;
+    
+}
+.show > img {
+    width: 100%;
+    height: 363px;
+}
