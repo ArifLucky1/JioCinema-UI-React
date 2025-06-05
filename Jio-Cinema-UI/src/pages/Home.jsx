@@ -9,7 +9,7 @@ import Shows from "../components/shows/Shows"
 
 
 export default function Home() {
-  
+    
     return (
     <>
       <Header/>
@@ -17,7 +17,9 @@ export default function Home() {
       <Carousel/>
       <Channels/>
       <Featured/>
-      <Shows/>
+      <Shows title="Action Movies"/>
+      <Shows title="Hindi Languauge Movies"/>
+      <Shows title="English Languauge Movies"/>
     </>
   )
 }
