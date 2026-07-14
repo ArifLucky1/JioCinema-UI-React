@@ -1,5 +1,5 @@
 import styles from './carousel.module.css'
-import strange from '../../assets/strnge.jpg'
+import strange from '../../assets/Spiderman-Dr-Strange.jpg'
 
 const Carousel = () => {
   return (
