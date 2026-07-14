@@ -1,9 +1,8 @@
 
 .featuredShow{
-    width: 24%;
+    width: 20%;
     height: 450px;
     display: flex;
-    /* background-color: green; */
     justify-content: center;
     align-items: center;
     overflow: hidden;
