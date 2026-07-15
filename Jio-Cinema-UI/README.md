@@ -44,7 +44,7 @@ A responsive JioCinema-inspired streaming platform built with React and Vite.
 
 ## 📦 Installation
 
-```bash
+````bash
 git clone https://github.com/yourusername/Jio-Cinema-UI.git
 cd Jio-Cinema-UI
 npm install
