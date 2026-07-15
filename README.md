@@ -19,4 +19,4 @@ A modern movie streaming platform built with React.
 
 ### Home Page
 
-![Homepage](./screenshorts/homepage.png)
+![Homepage](./Jio-Cinema-UI/screenshorts/homepage.png)
