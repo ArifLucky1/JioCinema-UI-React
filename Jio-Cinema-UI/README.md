@@ -29,4 +29,4 @@ A modern movie streaming platform built with React.
 
 ### Home Page
 
-![Home](./screenshorts/home.png)
+![Home](./screenshorts/homepage.png)
