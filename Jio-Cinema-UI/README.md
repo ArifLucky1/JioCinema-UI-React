@@ -17,16 +17,35 @@ A responsive movie streaming platform built with React, Module CSS, and TMDB API
 
 A modern movie streaming platform built with React.
 
-## Features
+# 🎬 JioCinema UI Clone
+
+A responsive JioCinema-inspired streaming platform built with React and Vite.
+
+## 🚀 Features
 
 - Responsive UI
-- Authentication
-- Movie Categories
-- Search
-- Watchlist
+- Horizontal category scroll
+- Hero banner
+- Movie sections
+- Reusable components
 
-## Screenshots
+## 🖼️ Screenshots
 
 ### Home Page
 
-![Home](./screenshorts/home.png)
+![Home Page](./screenshots/homepage.png)
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- CSS Modules
+- JavaScript
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/Jio-Cinema-UI.git
+cd Jio-Cinema-UI
+npm install
+npm run dev
