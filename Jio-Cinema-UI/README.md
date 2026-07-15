@@ -33,7 +33,7 @@ A responsive JioCinema-inspired streaming platform built with React and Vite.
 
 ### Home Page
 
-![Home Page](./screenshots/homepage.png)
+![Home Page](./screenshorts/homepage.png)
 
 ## 🛠️ Tech Stack
 
