@@ -1,0 +1,773 @@
+[
+  {
+    "name": "Inception",
+    "language": "English",
+    "genre": ["Sci-Fi", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/71thFiIUSpL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.8,
+    "runtime": 148,
+    "description": "A skilled thief is given a chance at redemption if he can successfully perform an almost impossible task: planting an idea inside someone's subconscious.",
+    "country": "USA",
+    "id": 1
+  },
+  {
+    "name": "3 Idiots",
+    "language": "Hindi",
+    "genre": ["Comedy", "Drama"],
+    "featured": true,
+    "cast": [
+      "Aamir Khan",
+      "R. Madhavan",
+      "Sharman Joshi"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/df/3_idiots_poster.jpg",
+    "imdb": 8.4,
+    "runtime": 170,
+    "description": "Three engineering students navigate friendship, ambition, and the pressures of academic life.",
+    "country": "India",
+    "id": 2
+  },
+  {
+    "name": "Parasite",
+    "language": "Korean",
+    "genre": ["Drama", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Song Kang-ho",
+      "Choi Woo-shik",
+      "Park So-dam"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png",
+    "imdb": 8.5,
+    "runtime": 132,
+    "description": "A poor family gradually infiltrates the lives of a wealthy household with unexpected consequences.",
+    "country": "South Korea",
+    "id": 3
+  },
+  {
+    "name": "Spirited Away",
+    "language": "Japanese",
+    "genre": ["Animation", "Fantasy"],
+    "featured": false,
+    "cast": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png",
+    "imdb": 8.6,
+    "runtime": 125,
+    "description": "A young girl enters a magical world where she must save her parents and find her way home.",
+    "country": "Japan",
+    "id": 4
+  },
+  {
+    "name": "RRR",
+    "language": "Telugu",
+    "genre": ["Action", "Drama"],
+    "featured": true,
+    "cast": [
+      "N. T. Rama Rao Jr.",
+      "Ram Charan",
+      "Alia Bhatt"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/RRR_Poster.jpg",
+    "imdb": 7.8,
+    "runtime": 182,
+    "description": "Two legendary revolutionaries unite to fight against British colonial rule.",
+    "country": "India",
+    "id": 5
+  },
+  {
+    "name": "The Intouchables",
+    "language": "French",
+    "genre": ["Comedy", "Drama"],
+    "featured": false,
+    "cast": [
+      "François Cluzet",
+      "Omar Sy",
+      "Anne Le Ny"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/The_Intouchables.jpg",
+    "imdb": 8.5,
+    "runtime": 112,
+    "description": "A wealthy quadriplegic forms an unlikely friendship with his caregiver.",
+    "country": "France",
+    "id": 6
+  },
+  {
+    "name": "Baahubali: The Beginning",
+    "language": "Telugu",
+    "genre": ["Action", "Fantasy"],
+    "featured": true,
+    "cast": [
+      "Prabhas",
+      "Rana Daggubati",
+      "Anushka Shetty"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5f/Baahubali_The_Beginning_poster.jpg",
+    "imdb": 8.0,
+    "runtime": 159,
+    "description": "A young man discovers his royal heritage and begins his journey to reclaim his kingdom.",
+    "country": "India",
+    "id": 7
+  },
+  {
+    "name": "Your Name",
+    "language": "Japanese",
+    "genre": ["Animation", "Romance"],
+    "featured": false,
+    "cast": [
+      "Ryunosuke Kamiki",
+      "Mone Kamishiraishi",
+      "Masami Nagasawa"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Your_Name_poster.png",
+    "imdb": 8.4,
+    "runtime": 106,
+    "description": "Two teenagers mysteriously swap bodies and develop a deep connection across time.",
+    "country": "Japan",
+    "id": 8
+  },
+  {
+    "name": "City of God",
+    "language": "Portuguese",
+    "genre": ["Crime", "Drama"],
+    "featured": false,
+    "cast": [
+      "Alexandre Rodrigues",
+      "Leandro Firmino",
+      "Phellipe Haagensen"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/CidadedeDeus.jpg",
+    "imdb": 8.6,
+    "runtime": 130,
+    "description": "Two boys grow up in a violent Rio de Janeiro neighborhood and choose different paths in life.",
+    "country": "Brazil",
+    "id": 9
+  },
+  {
+    "name": "Dangal",
+    "language": "Hindi",
+    "genre": ["Biography", "Drama", "Sport"],
+    "featured": true,
+    "cast": [
+      "Aamir Khan",
+      "Fatima Sana Shaikh",
+      "Sanya Malhotra"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Dangal_Poster.jpg",
+    "imdb": 8.3,
+    "runtime": 161,
+    "description": "A former wrestler trains his daughters to become world-class wrestling champions.",
+    "country": "India",
+    "id": 10
+  },
+  {
+    "name": "Interstellar",
+    "language": "English",
+    "genre": ["Sci-Fi", "Adventure"],
+    "featured": true,
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/71n58P8W5jL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.7,
+    "runtime": 169,
+    "description": "A team of astronauts travels through a wormhole in search of a new home for humanity.",
+    "country": "USA",
+    "id": 11
+  },
+  {
+    "name": "KGF: Chapter 1",
+    "language": "Kannada",
+    "genre": ["Action", "Drama"],
+    "featured": true,
+    "cast": [
+      "Yash",
+      "Srinidhi Shetty",
+      "Anant Nag"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81DnV8D7CzL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.2,
+    "runtime": 156,
+    "description": "A young man rises from poverty to become the most feared gangster in the Kolar Gold Fields.",
+    "country": "India",
+    "id": 12
+  },
+  {
+    "name": "Train to Busan",
+    "language": "Korean",
+    "genre": ["Action", "Horror", "Thriller"],
+    "featured": false,
+    "cast": [
+      "Gong Yoo",
+      "Ma Dong-seok",
+      "Jung Yu-mi"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81Y4nK4b1-L._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.6,
+    "runtime": 118,
+    "description": "Passengers on a speeding train struggle to survive during a zombie outbreak.",
+    "country": "South Korea",
+    "id": 13
+  },
+  {
+    "name": "Drishyam",
+    "language": "Malayalam",
+    "genre": ["Crime", "Drama", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Mohanlal",
+      "Meena",
+      "Ansiba Hassan"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81h6l7w+MFL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.3,
+    "runtime": 160,
+    "description": "A cable TV operator goes to extraordinary lengths to protect his family after an unexpected crime.",
+    "country": "India",
+    "id": 14
+  },
+  {
+    "name": "The Raid",
+    "language": "Indonesian",
+    "genre": ["Action", "Crime"],
+    "featured": false,
+    "cast": [
+      "Iko Uwais",
+      "Joe Taslim",
+      "Yayan Ruhian"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81FDoXQZ+TL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.6,
+    "runtime": 101,
+    "description": "An elite police squad becomes trapped inside a building controlled by a ruthless crime lord.",
+    "country": "Indonesia",
+    "id": 15
+  },
+  {
+    "name": "Coco",
+    "language": "English",
+    "genre": ["Animation", "Family", "Fantasy"],
+    "featured": false,
+    "cast": [
+      "Anthony Gonzalez",
+      "Gael García Bernal",
+      "Benjamin Bratt"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81L6M8J2m-L._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.4,
+    "runtime": 105,
+    "description": "A young boy journeys to the Land of the Dead to uncover his family's hidden history.",
+    "country": "USA",
+    "id": 16
+  },
+  {
+    "name": "Vikram",
+    "language": "Tamil",
+    "genre": ["Action", "Crime", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Kamal Haasan",
+      "Vijay Sethupathi",
+      "Fahadh Faasil"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81vW2Q9nqKL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.3,
+    "runtime": 174,
+    "description": "A special investigator uncovers a deadly drug syndicate while hunting a masked vigilante.",
+    "country": "India",
+    "id": 17
+  },
+  {
+    "name": "The Platform",
+    "language": "Spanish",
+    "genre": ["Sci-Fi", "Thriller"],
+    "featured": false,
+    "cast": [
+      "Iván Massagué",
+      "Zorion Eguileor",
+      "Antonia San Juan"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/71Sg0Qqv5IL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.0,
+    "runtime": 94,
+    "description": "Prisoners in a vertical prison struggle to survive as food descends floor by floor.",
+    "country": "Spain",
+    "id": 18
+  },
+  {
+    "name": "The Wandering Earth",
+    "language": "Chinese",
+    "genre": ["Sci-Fi", "Adventure"],
+    "featured": false,
+    "cast": [
+      "Qu Chuxiao",
+      "Li Guangjie",
+      "Wu Jing"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81N8oLQpq-L._AC_UF894,1000_QL80_.jpg",
+    "imdb": 6.9,
+    "runtime": 125,
+    "description": "Humanity attempts to move Earth away from the dying Sun using massive engines.",
+    "country": "China",
+    "id": 19
+  },
+  {
+    "name": "Life Is Beautiful",
+    "language": "Italian",
+    "genre": ["Comedy", "Drama", "War"],
+    "featured": true,
+    "cast": [
+      "Roberto Benigni",
+      "Nicoletta Braschi",
+      "Giorgio Cantarini"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/71C3xB+qYWL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.6,
+    "runtime": 116,
+    "description": "A father uses humor and imagination to protect his son from the horrors of a concentration camp.",
+    "country": "Italy",
+    "id": 20
+  },
+  {
+    "name": "Mad Max: Fury Road",
+    "language": "English",
+    "genre": ["Action", "Adventure"],
+    "featured": true,
+    "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81Pavw2QHVL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.1,
+    "runtime": 120,
+    "description": "In a post-apocalyptic wasteland, Max joins Furiosa on a daring escape from a ruthless warlord.",
+    "country": "USA",
+    "id": 21
+  },
+  {
+    "name": "John Wick",
+    "language": "English",
+    "genre": ["Action", "Crime", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Keanu Reeves",
+      "Michael Nyqvist",
+      "Alfie Allen"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81N7FmJhbhL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.4,
+    "runtime": 101,
+    "description": "A retired hitman seeks vengeance after a devastating personal loss.",
+    "country": "USA",
+    "id": 22
+  },
+  {
+    "name": "Mission: Impossible - Fallout",
+    "language": "English",
+    "genre": ["Action", "Adventure", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Tom Cruise",
+      "Henry Cavill",
+      "Rebecca Ferguson"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81Y0m4F+4UL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.7,
+    "runtime": 147,
+    "description": "Ethan Hunt races against time to stop a global nuclear catastrophe.",
+    "country": "USA",
+    "id": 23
+  },
+  {
+    "name": "War",
+    "language": "Hindi",
+    "genre": ["Action", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Hrithik Roshan",
+      "Tiger Shroff",
+      "Vaani Kapoor"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81TRx3P6vxL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 6.5,
+    "runtime": 154,
+    "description": "An elite soldier is tasked with hunting down his former mentor, who has gone rogue.",
+    "country": "India",
+    "id": 24
+  },
+  {
+    "name": "Pathaan",
+    "language": "Hindi",
+    "genre": ["Action", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Shah Rukh Khan",
+      "Deepika Padukone",
+      "John Abraham"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/71Jf6hQ3W7L._AC_UF894,1000_QL80_.jpg",
+    "imdb": 5.9,
+    "runtime": 146,
+    "description": "A RAW agent comes out of exile to stop a dangerous terrorist attack.",
+    "country": "India",
+    "id": 25
+  },
+  {
+    "name": "Kill",
+    "language": "Hindi",
+    "genre": ["Action", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Lakshya",
+      "Raghav Juyal",
+      "Tanya Maniktala"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81EXhJ+4u0L._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.6,
+    "runtime": 105,
+    "description": "A commando fights ruthless bandits on a moving train to save innocent passengers.",
+    "country": "India",
+    "id": 26
+  },
+  {
+    "name": "Salaar: Part 1 – Ceasefire",
+    "language": "Telugu",
+    "genre": ["Action", "Drama"],
+    "featured": true,
+    "cast": [
+      "Prabhas",
+      "Prithviraj Sukumaran",
+      "Shruti Haasan"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81r9+8qT0KL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 6.6,
+    "runtime": 175,
+    "description": "Two childhood friends become powerful rivals in a kingdom ruled by violence.",
+    "country": "India",
+    "id": 27
+  },
+  {
+    "name": "Pushpa: The Rise",
+    "language": "Telugu",
+    "genre": ["Action", "Crime", "Drama"],
+    "featured": true,
+    "cast": [
+      "Allu Arjun",
+      "Rashmika Mandanna",
+      "Fahadh Faasil"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81LQ3Q4P4-L._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.6,
+    "runtime": 179,
+    "description": "A laborer rises through the ranks of a red sandalwood smuggling syndicate.",
+    "country": "India",
+    "id": 28
+  },
+  {
+    "name": "Master",
+    "language": "Tamil",
+    "genre": ["Action", "Thriller"],
+    "featured": false,
+    "cast": [
+      "Vijay",
+      "Vijay Sethupathi",
+      "Malavika Mohanan"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81CFBwrb5-L._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.3,
+    "runtime": 179,
+    "description": "An alcoholic professor clashes with a ruthless gangster controlling a juvenile prison.",
+    "country": "India",
+    "id": 29
+  },
+  {
+    "name": "Leo",
+    "language": "Tamil",
+    "genre": ["Action", "Crime", "Thriller"],
+    "featured": true,
+    "cast": [
+      "Vijay",
+      "Sanjay Dutt",
+      "Trisha Krishnan"
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/81lR0XgJwHL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.2,
+    "runtime": 164,
+    "description": "A café owner with a mysterious past is forced to confront dangerous criminals.",
+    "country": "India",
+    "id": 30
+  },
+  {
+    "name": "The Dark Knight",
+    "language": "English",
+    "genre": ["Action", "Crime", "Drama"],
+    "featured": true,
+    "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81CLFQwU-WL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 9.0,
+    "runtime": 152,
+    "description": "Batman faces his greatest challenge as the Joker unleashes chaos across Gotham City.",
+    "country": "USA",
+    "id": 31
+  },
+  {
+    "name": "The Batman",
+    "language": "English",
+    "genre": ["Action", "Crime", "Mystery"],
+    "featured": true,
+    "cast": ["Robert Pattinson", "Zoë Kravitz", "Paul Dano"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81kA7M8j7FL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.8,
+    "runtime": 176,
+    "description": "Batman investigates a string of murders linked to Gotham's darkest secrets.",
+    "country": "USA",
+    "id": 32
+  },
+  {
+    "name": "Avengers: Endgame",
+    "language": "English",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "featured": true,
+    "cast": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81ExhpBEbHL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.4,
+    "runtime": 181,
+    "description": "The Avengers unite for one final battle to undo Thanos' devastation.",
+    "country": "USA",
+    "id": 33
+  },
+  {
+    "name": "Top Gun: Maverick",
+    "language": "English",
+    "genre": ["Action", "Drama"],
+    "featured": true,
+    "cast": ["Tom Cruise", "Miles Teller", "Jennifer Connelly"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81gM4B5XhSL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.2,
+    "runtime": 131,
+    "description": "Pete Maverick returns to train a new generation of elite fighter pilots.",
+    "country": "USA",
+    "id": 34
+  },
+  {
+    "name": "Extraction",
+    "language": "English",
+    "genre": ["Action", "Thriller"],
+    "featured": false,
+    "cast": ["Chris Hemsworth", "Rudhraksh Jaiswal", "Randeep Hooda"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81S6oQqVa5L._AC_UF894,1000_QL80_.jpg",
+    "imdb": 6.8,
+    "runtime": 116,
+    "description": "A fearless mercenary undertakes a dangerous mission to rescue a kidnapped boy.",
+    "country": "USA",
+    "id": 35
+  },
+  {
+    "name": "Baby",
+    "language": "Hindi",
+    "genre": ["Action", "Thriller"],
+    "featured": false,
+    "cast": ["Akshay Kumar", "Danny Denzongpa", "Taapsee Pannu"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81eXwQ7H6PL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.9,
+    "runtime": 159,
+    "description": "An elite intelligence team races to stop an international terrorist network.",
+    "country": "India",
+    "id": 36
+  },
+  {
+    "name": "URI: The Surgical Strike",
+    "language": "Hindi",
+    "genre": ["Action", "War"],
+    "featured": true,
+    "cast": ["Vicky Kaushal", "Yami Gautam", "Paresh Rawal"],
+    "imageUrl": "https://m.media-amazon.com/images/I/91P7iW7VvAL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.2,
+    "runtime": 138,
+    "description": "Indian special forces carry out a covert mission following a terrorist attack.",
+    "country": "India",
+    "id": 37
+  },
+  {
+    "name": "Shershaah",
+    "language": "Hindi",
+    "genre": ["Action", "Biography", "War"],
+    "featured": true,
+    "cast": ["Sidharth Malhotra", "Kiara Advani", "Shiv Panditt"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81T0X9Qm4ML._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.4,
+    "runtime": 135,
+    "description": "The inspiring story of Captain Vikram Batra during the Kargil War.",
+    "country": "India",
+    "id": 38
+  },
+  {
+    "name": "Animal",
+    "language": "Hindi",
+    "genre": ["Action", "Crime", "Drama"],
+    "featured": true,
+    "cast": ["Ranbir Kapoor", "Rashmika Mandanna", "Anil Kapoor"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81WmM5Xw4WL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 6.3,
+    "runtime": 201,
+    "description": "A man's obsessive love for his father drives him into a violent underworld.",
+    "country": "India",
+    "id": 39
+  },
+  {
+    "name": "Raazi",
+    "language": "Hindi",
+    "genre": ["Action", "Thriller", "Drama"],
+    "featured": false,
+    "cast": ["Alia Bhatt", "Vicky Kaushal", "Jaideep Ahlawat"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81Z6+2uXvEL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.7,
+    "runtime": 138,
+    "description": "An Indian spy marries into a Pakistani military family to gather intelligence.",
+    "country": "India",
+    "id": 40
+  },
+  {
+    "name": "Jailer",
+    "language": "Tamil",
+    "genre": ["Action", "Crime"],
+    "featured": true,
+    "cast": ["Rajinikanth", "Vinayakan", "Mohanlal"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81v9d7P1XnL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.1,
+    "runtime": 168,
+    "description": "A retired jailer returns to action after his son's disappearance.",
+    "country": "India",
+    "id": 41
+  },
+  {
+    "name": "Kaithi",
+    "language": "Tamil",
+    "genre": ["Action", "Thriller"],
+    "featured": true,
+    "cast": ["Karthi", "Narain", "George Maryan"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81H9zCVK5jL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.5,
+    "runtime": 145,
+    "description": "A former prisoner helps police transport seized drugs while fighting dangerous criminals.",
+    "country": "India",
+    "id": 42
+  },
+  {
+    "name": "Thunivu",
+    "language": "Tamil",
+    "genre": ["Action", "Crime"],
+    "featured": false,
+    "cast": ["Ajith Kumar", "Manju Warrier", "Samuthirakani"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81i2FWYgFIL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 6.1,
+    "runtime": 146,
+    "description": "A mysterious mastermind executes a daring bank heist exposing financial corruption.",
+    "country": "India",
+    "id": 43
+  },
+  {
+    "name": "Aavesham",
+    "language": "Malayalam",
+    "genre": ["Action", "Comedy"],
+    "featured": true,
+    "cast": ["Fahadh Faasil", "Hipzster", "Mithun Jai Shankar"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81kGkZQ9AAL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.9,
+    "runtime": 158,
+    "description": "Three students seek help from a notorious gangster after being bullied.",
+    "country": "India",
+    "id": 44
+  },
+  {
+    "name": "Lucifer",
+    "language": "Malayalam",
+    "genre": ["Action", "Crime", "Thriller"],
+    "featured": true,
+    "cast": ["Mohanlal", "Prithviraj Sukumaran", "Vivek Oberoi"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81x2zDfEqXL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.5,
+    "runtime": 175,
+    "description": "Political conspiracies unfold after the death of a powerful leader.",
+    "country": "India",
+    "id": 45
+  },
+  {
+    "name": "Marco",
+    "language": "Malayalam",
+    "genre": ["Action", "Crime", "Thriller"],
+    "featured": true,
+    "cast": ["Unni Mukundan", "Siddique", "Jagadish"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81L9L1n5JEL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.2,
+    "runtime": 145,
+    "description": "A ruthless man wages war against a powerful crime syndicate to avenge his family.",
+    "country": "India",
+    "id": 46
+  },
+  {
+    "name": "Vikrant Rona",
+    "language": "Kannada",
+    "genre": ["Action", "Mystery", "Thriller"],
+    "featured": false,
+    "cast": ["Kichcha Sudeepa", "Nirup Bhandari", "Neetha Ashok"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81Zk6F0AIEL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 7.0,
+    "runtime": 148,
+    "description": "A fearless inspector investigates mysterious murders in a haunted village.",
+    "country": "India",
+    "id": 47
+  },
+  {
+    "name": "Kantara",
+    "language": "Kannada",
+    "genre": ["Action", "Drama", "Thriller"],
+    "featured": true,
+    "cast": ["Rishab Shetty", "Sapthami Gowda", "Kishore"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81zPjVhVQAL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 8.2,
+    "runtime": 148,
+    "description": "A man battles tradition, bureaucracy, and supernatural forces to protect his village.",
+    "country": "India",
+    "id": 48
+  },
+  {
+    "name": "Beast",
+    "language": "Tamil",
+    "genre": ["Action", "Thriller"],
+    "featured": false,
+    "cast": ["Vijay", "Pooja Hegde", "Selvaraghavan"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81vF6l3RmTL._AC_UF894,1000_QL80_.jpg",
+    "imdb": 5.2,
+    "runtime": 155,
+    "description": "A former RAW agent takes on terrorists during a shopping mall hostage crisis.",
+    "country": "India",
+    "id": 49
+  },
+  {
+    "name": "Captain Miller",
+    "language": "Tamil",
+    "genre": ["Action", "Adventure", "Drama"],
+    "featured": true,
+    "cast": ["Dhanush", "Shiva Rajkumar", "Priyanka Arul Mohan"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81QmJr6rH8L._AC_UF894,1000_QL80_.jpg",
+    "imdb": 6.9,
+    "runtime": 158,
+    "description": "A rebel leader fights against British rule while confronting his own past.",
+    "country": "India",
+    "id": 50
+  }
+  
+]
