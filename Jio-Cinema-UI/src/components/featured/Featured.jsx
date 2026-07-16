@@ -15,7 +15,6 @@ const Featured = () => {
                 <FeaturedShow/>
                 <FeaturedShow/>
                 <FeaturedShow/>
-                <FeaturedShow/>
             </div>
         
         </section>

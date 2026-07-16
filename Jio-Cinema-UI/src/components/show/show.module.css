@@ -1,12 +1,13 @@
 .show{
     width: 17%;
-    height: 363px;
+    height: 350px;
     /* background-color: yellowgreen; */
     color: #fff;
     overflow: hidden;
+    border-radius: 8px;
     
 }
 .show > img {
     width: 100%;
-    height: 363px;
+    
 }
