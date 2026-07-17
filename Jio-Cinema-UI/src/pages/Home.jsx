@@ -12,6 +12,10 @@ import { useEffect, useState } from "react"
 export default function Home() {
     
       let [movies,setMovies] = useState([]);
+      let [featuredMovies, setFeaturedMovies] = useState([]);
+      let [actionMovies, setActionMovies] = useState([]);
+      let [hindiMovies, setHindiMovies] = useState([]);
+      let [englishMovies, setEnglishMovies] = useState([]);
 
       useEffect(async () => {
 
@@ -21,6 +25,43 @@ export default function Home() {
           let moviesData = await movieResponse.json();
           // console.log(movies);
           setMovies(moviesData);
+
+          // filter for featured movies
+            let featMovies = moviesData.filter((movie) => {
+              return movie.featured === true
+            })
+            // console.log(featMovies)
+            setFeaturedMovies(featMovies)
+
+
+            // filter for Action movies
+            let actionMovies = moviesData.filter((movie) => {
+              return movie.genre.includes("Action")
+            })
+            setActionMovies(actionMovies)
+
+
+            // filter for Hindi movies
+            let hindiMovies = moviesData.filter((movie) => {
+              return movie.language === "Hindi"
+            })
+            setHindiMovies(hindiMovies)
+
+
+            // filter for English movies
+            let englishMovies = moviesData.filter((movie) => {
+              return movie.language === "English"
+            })
+            setEnglishMovies(englishMovies)
+
+
+            // filter for South movies
+            let southMovies = moviesData.filter((movie) => {
+              return movie.language === "Malayalam"
+            })
+          // console.log(southMovies)
+            setSouthMovies(southMovies)
+
         }
         catch(err)
         {
@@ -34,7 +75,7 @@ export default function Home() {
       <Tags/>
       <Carousel/>
       <Channels/>
-      <Featured/>
+      <Featured movies={featuredMovies}/>
       <Shows title="Action Movies"/>
       <Shows title="Hindi Movies"/>
       <Shows title="English Movies"/>

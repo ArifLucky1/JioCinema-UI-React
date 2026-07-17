@@ -1,7 +1,7 @@
 import styles from './featured.module.css'
 import FeaturedShow from '../featured-show/FeaturedShow'
 
-const Featured = () => {
+const Featured = (props) => {
   return (
     <>
     
