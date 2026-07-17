@@ -9,7 +9,7 @@ const FeaturedShow = () => {
         <div className={styles.featuredShow}>
              <img src={spider} alt="spider" />   
             <div className={styles.movieTitle}>
-
+                  Spider-Man Home Coming
             </div>
          </div>
          
