@@ -76,10 +76,10 @@ export default function Home() {
       <Carousel/>
       <Channels/>
       <Featured movies={featuredMovies}/>
-      <Shows title="Action Movies"/>
-      <Shows title="Hindi Movies"/>
-      <Shows title="English Movies"/>
-      <Shows title="South Movies"/>
+      <Shows title="Action Movies" movies={actionMovies}/>
+      <Shows title="Hindi Movies" movies={hindiMovies}/>
+      <Shows title="English Movies" movies={englishMovies}/>
+      <Shows title="South Movies" movies={southMovies}/>
     </>
   )
 }

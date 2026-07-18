@@ -2,14 +2,14 @@ import styles from './featured-show.module.css'
 
 import spider from '../../assets/spider_man.jpg'
 
-const FeaturedShow = () => {
+const FeaturedShow = (props) => {
   return (
     <>
     
         <div className={styles.featuredShow}>
-             <img src={spider} alt="spider" />   
+             <img src={props.movie.imageUrl} alt="movie Img" />   
             <div className={styles.movieTitle}>
-                  Spider-Man Home Coming
+                  {props.movie.name}
             </div>
          </div>
          

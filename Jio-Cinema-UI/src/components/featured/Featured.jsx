@@ -14,14 +14,10 @@ const Featured = (props) => {
 
               {
                 props.movies.map((movie)=>{
-                  return <FeaturedShow/>
+                  return <FeaturedShow movie = {movie}/>
                 })
               }
                 
-                {/* <FeaturedShow/>
-                <FeaturedShow/>
-                <FeaturedShow/>
-                <FeaturedShow/> */}
             </div>
         
         </section>
