@@ -31,28 +31,28 @@ export default function Home() {
               return movie.featured === true
             })
             // console.log(featMovies)
-            setFeaturedMovies(featMovies)
+            setFeaturedMovies(featMovies.slice(0,5))
 
 
             // filter for Action movies
             let actionMovies = moviesData.filter((movie) => {
               return movie.genre.includes("Action")
             })
-            setActionMovies(actionMovies)
+            setActionMovies(actionMovies.slice(0,6))
 
 
             // filter for Hindi movies
             let hindiMovies = moviesData.filter((movie) => {
               return movie.language === "Hindi"
             })
-            setHindiMovies(hindiMovies)
+            setHindiMovies(hindiMovies.slice(0,6))
 
 
             // filter for English movies
             let englishMovies = moviesData.filter((movie) => {
               return movie.language === "English"
             })
-            setEnglishMovies(englishMovies)
+            setEnglishMovies(englishMovies.slice(0,6))
 
 
             // filter for South movies
@@ -60,7 +60,7 @@ export default function Home() {
               return movie.language === "Malayalam"
             })
           // console.log(southMovies)
-            setSouthMovies(southMovies)
+            setSouthMovies(southMovies.slice(0,6))
 
         }
         catch(err)

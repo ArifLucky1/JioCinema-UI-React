@@ -10,11 +10,18 @@ const Featured = (props) => {
             <h1 className={styles.sectionTitle}>Hot Right Now 🔥</h1>
 
             <div className={styles.shows}>
+
+
+              {
+                props.movies.map((movie)=>{
+                  return <FeaturedShow/>
+                })
+              }
+                
+                {/* <FeaturedShow/>
                 <FeaturedShow/>
                 <FeaturedShow/>
-                <FeaturedShow/>
-                <FeaturedShow/>
-                <FeaturedShow/>
+                <FeaturedShow/> */}
             </div>
         
         </section>
