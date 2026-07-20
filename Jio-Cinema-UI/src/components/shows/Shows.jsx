@@ -12,12 +12,12 @@ const Shows = (props) => {
 
           <div className={styles.showsParent}>
             
-            <Show/>
-            <Show/>
-            <Show/>
-            <Show/>
-            <Show/>
-            <Show/>
+            {
+              props.movies.map((movie)=>{
+                return <Show movie={movie}/>
+                
+              })
+            }
         
           </div>
 
