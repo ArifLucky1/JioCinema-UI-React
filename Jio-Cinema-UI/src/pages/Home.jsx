@@ -16,6 +16,7 @@ export default function Home() {
       let [actionMovies, setActionMovies] = useState([]);
       let [hindiMovies, setHindiMovies] = useState([]);
       let [englishMovies, setEnglishMovies] = useState([]);
+      let [teluguMovies, setTeluguMovies] = useState([]);
 
       useEffect(async () => {
 
@@ -35,32 +36,32 @@ export default function Home() {
 
 
             // filter for Action movies
-            let actionMovies = moviesData.filter((movie) => {
+            let fightMovies = moviesData.filter((movie) => {
               return movie.genre.includes("Action")
             })
-            setActionMovies(actionMovies.slice(0,6))
+            setActionMovies(fightMovies.slice(0,6))
 
 
             // filter for Hindi movies
-            let hindiMovies = moviesData.filter((movie) => {
+            let hinMovies = moviesData.filter((movie) => {
               return movie.language === "Hindi"
             })
-            setHindiMovies(hindiMovies.slice(0,6))
+            setHindiMovies(hinMovies.slice(0,6))
 
 
             // filter for English movies
-            let englishMovies = moviesData.filter((movie) => {
+            let engMovies = moviesData.filter((movie) => {
               return movie.language === "English"
             })
-            setEnglishMovies(englishMovies.slice(0,6))
+            setEnglishMovies(engMovies.slice(0,6))
 
 
             // filter for South movies
-            let southMovies = moviesData.filter((movie) => {
+            let TelMovies = moviesData.filter((movie) => {
               return movie.language === "Malayalam"
             })
           // console.log(southMovies)
-            setSouthMovies(southMovies.slice(0,6))
+            setTeluguMovies(TelMovies.slice(0,6))
 
         }
         catch(err)

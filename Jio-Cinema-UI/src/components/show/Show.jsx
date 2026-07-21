@@ -1,5 +1,5 @@
 import styles from './show.module.css'
-import idiot from '../../assets/3idiot.jpg'
+// import idiot from '../../assets/3idiot.jpg'
 
 const Show = (props) => {
   return (
