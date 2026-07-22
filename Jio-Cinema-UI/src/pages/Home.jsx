@@ -18,56 +18,59 @@ export default function Home() {
       let [englishMovies, setEnglishMovies] = useState([]);
       let [teluguMovies, setTeluguMovies] = useState([]);
 
-      useEffect(async () => {
+      useEffect(() => {
+       async function fetchMovies() {
 
+      
         try
         {
-          let movieResponse = await fetch("http://localhost:3000/movies");
-          let moviesData = await movieResponse.json();
+          const movieResponse = await fetch("http://localhost:3000/movies");
+          const moviesData = await movieResponse.json();
           // console.log(movies);
           setMovies(moviesData);
 
           // filter for featured movies
-            let featMovies = moviesData.filter((movie) => {
-              return movie.featured === true
+            const featMovies = moviesData.filter((movie) => {
+              return movie.featured === true;
             })
             // console.log(featMovies)
-            setFeaturedMovies(featMovies.slice(0,5))
+            setFeaturedMovies(featMovies.slice(0, 5));
 
 
             // filter for Action movies
-            let fightMovies = moviesData.filter((movie) => {
+            const fightMovies = moviesData.filter((movie) => {
               return movie.genre.includes("Action")
             })
-            setActionMovies(fightMovies.slice(0,6))
+            setActionMovies(fightMovies.slice(0, 6))
 
 
             // filter for Hindi movies
-            let hinMovies = moviesData.filter((movie) => {
+            const hinMovies = moviesData.filter((movie) => {
               return movie.language === "Hindi"
             })
-            setHindiMovies(hinMovies.slice(0,6))
+            setHindiMovies(hinMovies.slice(0, 6))
 
 
             // filter for English movies
-            let engMovies = moviesData.filter((movie) => {
+            const engMovies = moviesData.filter((movie) => {
               return movie.language === "English"
             })
-            setEnglishMovies(engMovies.slice(0,6))
+            setEnglishMovies(engMovies.slice(0, 6))
 
 
-            // filter for South movies
-            let TelMovies = moviesData.filter((movie) => {
-              return movie.language === "Malayalam"
+            // filter for Telugu movies
+            const TelMovies = moviesData.filter((movie) => {
+              return movie.language === "Telugu"
             })
-          // console.log(southMovies)
-            setTeluguMovies(TelMovies.slice(0,6))
+            setTeluguMovies(TelMovies.slice(0, 6))
 
         }
         catch(err)
         {
           console.log(err);
         }
+        }
+          fetchMovies();
       }, [])
 
     return (
@@ -80,7 +83,7 @@ export default function Home() {
       <Shows title="Action Movies" movies={actionMovies}/>
       <Shows title="Hindi Movies" movies={hindiMovies}/>
       <Shows title="English Movies" movies={englishMovies}/>
-      <Shows title="South Movies" movies={southMovies}/>
+      <Shows title="Telugu Movies" movies={teluguMovies}/>
     </>
   )
 }
