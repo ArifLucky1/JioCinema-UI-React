@@ -4,11 +4,14 @@ import crown from '../../assets/crown.svg'
 import searchIcon from '../../assets/ic_search.svg'
 import voiceSearch from '../../assets/voice-search.svg'
 import jioIcon from '../../assets/jio-logo.png'
+import { useState } from "react";
 
 
-export default function Header() {
+export default function Header(props) {
 
         let navLinks = ['Home', 'Sports', 'Movies', 'TV Shows', 'More']
+
+        const [searchTitle, setSearchTitle] = useState(""); 
   
   return (
     <>
@@ -39,7 +42,10 @@ export default function Header() {
                     <img src={searchIcon} alt="search" />
                 </div>
 
-                <input type="text" className={styles.searchInput} placeholder="Movies, Shows and More" />
+                <input type="text" onChange={(event)=> {
+                  setSearchTitle(event.target.value)
+                }} 
+                className={styles.searchInput} placeholder="Movies, Shows and More" />
 
                 <div className={styles.headerIcon}>
                     <img src={voiceSearch} alt="voice" />
@@ -51,6 +57,11 @@ export default function Header() {
 
         </div>
       </header>
+          
+          <div className={searchResults}>
+
+          </div>
+
     </>
   );
 }

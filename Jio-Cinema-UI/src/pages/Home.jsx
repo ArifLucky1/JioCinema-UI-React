@@ -75,7 +75,7 @@ export default function Home() {
 
     return (
     <>
-      <Header/>
+      <Header movies = {movies}/>
       <Tags/>
       <Carousel/>
       <Channels/>
