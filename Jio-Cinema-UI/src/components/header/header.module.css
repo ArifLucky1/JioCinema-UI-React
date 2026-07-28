@@ -121,4 +121,7 @@
     background-color: rgba(229, 232, 232, 0.8);
     position: fixed;
     z-index: 10;
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
 }

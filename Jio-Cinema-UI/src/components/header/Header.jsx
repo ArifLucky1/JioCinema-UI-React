@@ -4,14 +4,24 @@ import crown from '../../assets/crown.svg'
 import searchIcon from '../../assets/ic_search.svg'
 import voiceSearch from '../../assets/voice-search.svg'
 import jioIcon from '../../assets/jio-logo.png'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 export default function Header(props) {
 
         let navLinks = ['Home', 'Sports', 'Movies', 'TV Shows', 'More']
 
-        const [searchTitle, setSearchTitle] = useState(""); 
+        let [searchTitle, setSearchTitle] = useState("");
+        let [filteredMovies, setFilteredMovies] = useState([]) 
+
+        useEffect(()=>{
+          let filterMovies = props.movies.filter((movie)=>{
+            return movie.name.toUpperCase().includes(searchTitle.toUpperCase())
+          })
+
+          setFilteredMovies(filterMovies)
+
+        },[searchTitle])
   
   return (
     <>
@@ -59,6 +69,11 @@ export default function Header(props) {
       </header>
           
           <div className={searchResults}>
+                {
+                  filteredMovies.map((movie)=>{
+                   return <Show movie = {movie} />
+                  })
+                }
 
           </div>
 
