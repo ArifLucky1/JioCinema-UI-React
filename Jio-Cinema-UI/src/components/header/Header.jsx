@@ -5,6 +5,7 @@ import searchIcon from '../../assets/ic_search.svg'
 import voiceSearch from '../../assets/voice-search.svg'
 import jioIcon from '../../assets/jio-logo.png'
 import { useEffect, useState } from "react";
+import Show from "../show/Show";
 
 
 export default function Header(props) {
@@ -81,7 +82,7 @@ export default function Header(props) {
       {
           filteredMovies.length!==0?(
           
-          <div className={searchResults}>
+          <div className={styles.searchResults}>
                 {
                   filteredMovies.map((movie)=>{
                    return <Show movie = {movie} />
