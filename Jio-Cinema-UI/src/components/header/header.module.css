@@ -124,4 +124,5 @@
     display: flex;
     column-gap: 10px;
     flex-wrap: wrap;
+    padding: 2%;
 }

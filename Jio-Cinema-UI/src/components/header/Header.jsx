@@ -15,11 +15,21 @@ export default function Header(props) {
         let [filteredMovies, setFilteredMovies] = useState([]) 
 
         useEffect(()=>{
-          let filterMovies = props.movies.filter((movie)=>{
-            return movie.name.toUpperCase().includes(searchTitle.toUpperCase())
-          })
 
-          setFilteredMovies(filterMovies)
+          if(searchTitle!=="")
+          {
+            let filterMovies = props.movies.filter((movie)=>{
+              return movie.name.toUpperCase().indexOf(searchTitle.toUpperCase())==0
+            })
+  
+            setFilteredMovies(filterMovies)
+
+          }
+          else{
+            setFilteredMovies([]);
+          }
+
+
 
         },[searchTitle])
   
@@ -67,6 +77,9 @@ export default function Header(props) {
 
         </div>
       </header>
+
+      {
+          filteredMovies.length!==0?(
           
           <div className={searchResults}>
                 {
@@ -76,6 +89,10 @@ export default function Header(props) {
                 }
 
           </div>
+
+          ):null
+      }
+          
 
     </>
   );
