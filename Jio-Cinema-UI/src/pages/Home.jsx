@@ -16,7 +16,7 @@ export default function Home() {
       let [actionMovies, setActionMovies] = useState([]);
       let [hindiMovies, setHindiMovies] = useState([]);
       let [englishMovies, setEnglishMovies] = useState([]);
-      let [teluguMovies, setTeluguMovies] = useState([]);
+      let [comedyMovies, setComedyMovies] = useState([]);
 
       useEffect(() => {
        async function fetchMovies() {
@@ -59,10 +59,10 @@ export default function Home() {
 
 
             // filter for Telugu movies
-            const TelMovies = moviesData.filter((movie) => {
-              return movie.language === "Telugu"
+            const ComMovies = moviesData.filter((movie) => {
+              return movie.genre === "Comedy"
             })
-            setTeluguMovies(TelMovies.slice(0, 6))
+            setComedyMovies(ComMovies.slice(0, 6))
 
         }
         catch(err)
@@ -83,7 +83,7 @@ export default function Home() {
       <Shows title="Action Movies" movies={actionMovies}/>
       <Shows title="Hindi Movies" movies={hindiMovies}/>
       <Shows title="English Movies" movies={englishMovies}/>
-      <Shows title="Telugu Movies" movies={teluguMovies}/>
+      <Shows title="Comedy Movies" movies={comedyMovies}/>
     </>
   )
 }
